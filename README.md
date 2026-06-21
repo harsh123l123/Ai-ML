@@ -15,7 +15,7 @@ graph TD
     classDef default fill:#1E1E24,stroke:#3C3C43,stroke-width:1px,color:#EAEAEA;
     classDef active fill:#2C3E50,stroke:#3498DB,stroke-width:2px,color:#FFFFFF;
     
-    A[01. Mathematics for ML] ::: active --> B[02. Classical AI]
+    A[01. Mathematics for ML] --> B[02. Classical AI]
     B --> C[03. Classical Machine Learning]
     C --> D[04. Deep Learning]
     D --> E[05. Reinforcement Learning]
@@ -34,7 +34,10 @@ graph TD
         F3[AI Agents]
     end
     F --> F1 & F2 & F3
+    
+    class A active;
 ```
+
 
 ---
 
